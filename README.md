@@ -1,3 +1,0 @@
-# BartProjects
-
-## Hello world
