@@ -6,7 +6,6 @@ body {
 }
 
 header,main,footer {
-    width: 80%;
     margin: 40px auto;
 }
 
@@ -38,9 +37,8 @@ figcaption {
 }
 
 article {
-    width: 100%;
     padding: 25px;
-    margin: 40px auto;
+    margin: 40px 10%;
     box-shadow: 12px 12px 6px #222222;
     background-color: #d3d3d3;
     border: 2px solid #222;
@@ -63,17 +61,34 @@ footer p {
 
 @media only screen and (max-width: 1024px) {
     body {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     header,main,footer {
-        width: 96%;
         margin: 30px 5px;
     }
 
     article {
         padding: 10px;
-        margin: 25px auto;
+        margin: 25px 5px;
         box-shadow: 5px 5px 3px #222222;
+    }
+
+    footer p {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    figure {
+        width: 96%;
+    }
+    
+    figure img {
+        width: 100%;
+    }
+    
+    figcaption {
+        width: 100%;
     }
 }
