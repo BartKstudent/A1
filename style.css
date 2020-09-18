@@ -57,6 +57,7 @@ h3 {
 
 footer p {
     color: #ddd;
+    margin-left: 10%;
 }
 
 @media only screen and (max-width: 1024px) {
